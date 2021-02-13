@@ -1,0 +1,19 @@
+canvas{
+    border: 5px solid black;
+    
+}
+
+#panda{
+  position: absolute;
+  left: 15px;
+  top:500px;
+  animation-name: movement;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movement{
+  0% {left:15px;top:500px}
+  50% {left:1127px; top:500px}
+  100% {left:15px; top:500px}
+}
